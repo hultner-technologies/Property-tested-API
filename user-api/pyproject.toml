@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "user-api"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Hultnér <ahultner@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.52.0"
+uvicorn = "^0.11.3"
+pytest = ">=5"
+hypothesis = "^5.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
